@@ -256,8 +256,6 @@
   left: 13vw;
   bottom: 7vw;
   width: 19vw;
-  opacity: 0.5;
-  transform: rotate(-20deg);
 }
 
 .xo-img {
@@ -265,7 +263,6 @@
   right: 15vw;
   bottom: 9vw;
   width: 13vw;
-  opacity: 0.5;
 }
 
 /* Contact form */
