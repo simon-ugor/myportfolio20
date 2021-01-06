@@ -14,7 +14,7 @@ const Project2 = () => {
                 <h1 className="project1-heading">E-Shop Template</h1>
                 <p className="project1-text">Sometimes it can get difficult and time consuming to look online for a company that needs an e-shop built. So I decided not to wait, rather build an universal e-shop template basically for any product and company. Please note this is only front-end version of e-shop, so some features are not implemented. I am currently working on my full-stack (MERN) skills to implement a log in option as well as learning what are the checkout possibilities. If you are interested in viewing my e-shop temlpate, simply click the button below.</p>
                 <p className="project1-label">Check out my E-Shop Project</p>
-                <a href="https://simonugor.github.io/eshoptemplate/"><button className="button">Click Me!</button></a>
+                <a href="https://simon-ugor.github.io/eshoptemplate20/"><button className="button">Click Me!</button></a>
                 <p className="project1-or">or</p>
                 
                 <Link

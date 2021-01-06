@@ -14,7 +14,7 @@ const Project1 = () => {
                 <h1 className="project1-heading">API Calls</h1>
                 <p className="project1-text">When I started to learn web development I had no idea what API calls are, but after diving deeper I found out how powerful they can be and decided it will probably be a good idea to include one in my portfolio. So I started to look around for some nice API to use and I stumbled upon this Fortnite one with good looking pictures and not too much data to handle. Well, yeah.. Fortnite.. Don't play Fortnite? Me neither, but this is about ReactJS and API calls so I went ahead and used it. Feel free to click the button below and check out the webpage fully created with data from fetching API.</p>
                 <p className="project1-label">Check out my API Project</p>
-                <a href="https://simonugor.github.io/FortniteApiCall/"><button className="button">Click Me!</button></a>
+                <a href="https://simon-ugor.github.io/apicalls20/"><button className="button">Click Me!</button></a>
                 <p className="project1-or">or</p>
 
                 <Link
