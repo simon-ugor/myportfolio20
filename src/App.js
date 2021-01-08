@@ -15,7 +15,7 @@ import Project3 from "./components/Project3"
 function App() {
 
   const [name, setName] = useState("Šimon Ugor")
-  const [defaultText, setDefaultText] = useState("Front-end engineer and MERN stack developer")
+  const [defaultText, setDefaultText] = useState("ReactJS and NextJS front-end developer")
   const [heading, setHeading] = useState("")
   const [display, setDisplay] = useState("")
   const [text, setText] = useState("")
