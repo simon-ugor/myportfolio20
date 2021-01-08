@@ -12,9 +12,9 @@ const Project1 = () => {
         <div className="project1-main-div">
             <div className="border-div">
                 <h1 className="project1-heading">API Calls</h1>
-                <p className="project1-text">When I started to learn web development I had no idea what API calls are, but after diving deeper I found out how powerful they can be and decided it will probably be a good idea to include one in my portfolio. So I started to look around for some nice API to use and I stumbled upon this Fortnite one with good looking pictures and not too much data to handle. Well, yeah.. Fortnite.. Don't play Fortnite? Me neither, but this is about ReactJS and API calls so I went ahead and used it. Feel free to click the button below and check out the webpage fully created with data from fetching API.</p>
+                <p className="project1-text">COVID-19 has been spreading around the world for a long time now so when I was thinking about what API should I look for, this was the first thing that came to my mind. Simply because this topic is really popular (not in the good way) and this may be helpful for me or other people, I decided to create a COVID-19 Statistics web app. I called an API with latest updates for Coronavirus data, fetched them and implemented on my web page. Also, this website was fully developed in NextJS. Feel free to go ahead and check out my API Calls project.</p>
                 <p className="project1-label">Check out my API Project</p>
-                <a href="https://simon-ugor.github.io/apicalls20/"><button className="button">Click Me!</button></a>
+                <a href="https://covidstatistics.online" target="_blank" rel="noopener noreferrer"><button className="button">Click Me!</button></a>
                 <p className="project1-or">or</p>
 
                 <Link
