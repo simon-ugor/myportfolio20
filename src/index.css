@@ -317,3 +317,33 @@
   font-family: normal;
   font-size: 4vh;
 }
+
+.mobile-div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color:  #EF6C6D;
+  z-index: 3;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+
+/* Media queries */
+
+@media only screen and (orientation:portrait) {
+  .desktop-div {
+    display: none;
+  }
+
+  .mobile-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #c6c6c6;
+    font-family: normal;
+    font-size: 4vw;
+  }
+}

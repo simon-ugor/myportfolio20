@@ -11,6 +11,7 @@ import Myname from "./components/Myname.js"
 import Project1 from "./components/Project1"
 import Project2 from "./components/Project2"
 import Project3 from "./components/Project3"
+import MobileDiv from "./components/MobileDiv"
 
 function App() {
 
@@ -96,41 +97,44 @@ function App() {
     <Router>
       <Switch>
         <div className="App">
-          <div className="div1">
-            <Top
-              aboutMe={aboutMe}
-              myCv={myCv}
-              contactMe={contactMe}
-            />
-            <Img />
-            <Right />
-            <Myname
-              name={name}
-              defaultText={defaultText}
-              heading={heading}
-              display={display}
-              text={text}
-              text2={text2}
-              text3={text3}
-              text4={text4}
-              downloadDisplay={downloadDisplay}
-              formDisplay={formDisplay}
-              emailSent={emailSent}
-              emailError={emailError}
-              margin={margin}
-            />
-          </div>
-          <div className="div2">
-            <Project1 />
-          </div>
-          <div className="div3">
-            <Project2 />
-          </div>
-          <div className="div4">
-            <Project3 />
+          <div className="desktop-div">
+            <div className="div1">
+              <Top
+                aboutMe={aboutMe}
+                myCv={myCv}
+                contactMe={contactMe}
+              />
+              <Img />
+              <Right />
+              <Myname
+                name={name}
+                defaultText={defaultText}
+                heading={heading}
+                display={display}
+                text={text}
+                text2={text2}
+                text3={text3}
+                text4={text4}
+                downloadDisplay={downloadDisplay}
+                formDisplay={formDisplay}
+                emailSent={emailSent}
+                emailError={emailError}
+                margin={margin}
+              />
+            </div>
+            <div className="div2">
+              <Project1 />
+            </div>
+            <div className="div3">
+              <Project2 />
+            </div>
+            <div className="div4">
+              <Project3 />
+            </div>
           </div>
         </div>
       </Switch>
+      <MobileDiv />
     </Router>
   );
 }
