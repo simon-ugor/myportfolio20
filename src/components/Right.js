@@ -35,7 +35,7 @@ const Right = () => {
                 smooth={true}
                 offset={0}
                 duration={700}
-                ><button className="button">Tic-Tac-Toe</button>
+                ><button className="button">TechWicki</button>
             </Link>
 
         </div>
